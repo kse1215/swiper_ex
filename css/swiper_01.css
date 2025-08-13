@@ -42,6 +42,21 @@ h1 {
 .mo-img{
     display: none;
 }
+/* 상품 스와퍼 */
+.itemSwiper{
+    position: relative;
+    width: 90%;
+    max-width: 1200px;
+}
+.itemSwiper .swiper-slide{
+    width: 100%;
+}
+.itemSwiper .swiper-slide img{
+    width: 100%;
+}
+.item-sw-txt{
+    font-size: 2rem;
+}
 /* 반응형 */
 @media (max-width: 768px) {
   html {
